@@ -1,0 +1,28 @@
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  width: 400px;
+  margin-bottom: 3px;
+  padding-left: 8px;
+  font-size: 1.3rem;
+}
+
+.list-item:hover {
+  margin-left: -5px;
+  border-left: 5px solid #68c0fa;
+}
+
+.item-edit-btn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+.item-remove-btn {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  font-size: 1.2rem;
+}
